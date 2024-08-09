@@ -1,35 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  let nome = "Stela";
+
+const soma = (a, b) => {
+  return a + b
+}
+
+const saudacao = (nome) => {
+  return  <h2> seja bem vindo {nome}!</h2>
+}
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+      <h1> olá </h1>
+    
+      <p> Lorem ipsum dolor sit amet. Qui alias placeat qui magni rerum qui praesentium unde. Sed quasi quaerat et dolore consectetur et nesciunt nihil. Et aspernatur alias id commodi obcaecati 33 mollitia voluptates eos quia officiis non dolorum consectetur.
+      </p>
+
+      <p>
+        2 + 2 = 
+        { 2+2 }
       </p>
     </>
-  )
+  );
+
 }
 
-export default App
+export default App;
