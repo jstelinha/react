@@ -1,5 +1,12 @@
-export function Header(){
-    return(
-        <h1> Header </h1>
+import styles from "./Header.module.css"
+
+export function Header() {
+
+    return (
+        <div className={styles.Header}>
+            <h1>
+                <span>TODO</span> List
+            </h1>
+        </div>
     )
 }

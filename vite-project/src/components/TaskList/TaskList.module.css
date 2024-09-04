@@ -1,0 +1,8 @@
+.TaskList {
+    list-style: none;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+

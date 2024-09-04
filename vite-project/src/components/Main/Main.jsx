@@ -1,9 +1,11 @@
+import styles from './Main.module.css'
 
+export function Main(props) {
+    const {children} = props
 
-export function Main(){
-    return(
-        <h1> Main </h1>
+    return (
+        <div className={styles.Main}>
+            {children}
+        </div>
     )
-    
-    
 }
